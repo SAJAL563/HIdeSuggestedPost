@@ -31,7 +31,7 @@ Block annoying "Suggested for you" posts on Instagram's web version with this si
    // @namespace    http://tampermonkey.net/
    // @version      0.1
    // @description  Hide "Suggested for you" posts on Instagram.com
-   // @author       Your Name
+   // @author       Sajal
    // @match        https://www.instagram.com/*
    // @grant        none
    // ==/UserScript==
