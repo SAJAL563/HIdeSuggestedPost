@@ -57,5 +57,5 @@ Block annoying "Suggested for you" posts on Instagram's web version with this si
        removeSuggestedPosts();
 
        // Run the function again every 3 seconds to catch dynamically loaded posts
-       setInterval(removeSuggestedPosts, 3000);
+       setInterval(removeSuggestedPosts, 10);
    })();
