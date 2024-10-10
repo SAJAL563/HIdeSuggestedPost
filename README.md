@@ -59,3 +59,22 @@ Block annoying "Suggested for you" posts on Instagram's web version with this si
        // Run the function again every 3 seconds to catch dynamically loaded posts
        setInterval(removeSuggestedPosts, 10);
    })();
+
+
+4. **Click File -> Save,** and the userscript will automatically run on Instagram.com, removing unwanted "Suggested for you" content from your feed.
+
+
+## ⚙️ How it Works
+- This userscript runs on the Instagram web version and:
+- Searches for posts labeled "Suggested for you."
+- Removes those posts from the feed using JavaScript.
+- Re-runs every 10 miliseconds to ensure new suggestions loaded via infinite scroll are also hidden.
+
+## 🛠 Customization
+Feel free to tweak the script for different Instagram layouts or behavior changes. You can change the refresh interval or adjust the targeting to suit your needs.
+
+## 👨‍💻 Contributing
+- Issues and pull requests are welcome! If you encounter a problem or want to suggest an improvement, feel free to contribute.
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
